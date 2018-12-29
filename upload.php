@@ -1,6 +1,6 @@
 <?php
 
-$targetdir = './uploads/';
+$targetdir = __DIR__ . '/feima/uploads/';
 $filename = $_FILES['file']['name'];
 $targetfile = $targetdir.$filename;
 $loads = shell_exec("sudo docker ps | wc -l");
