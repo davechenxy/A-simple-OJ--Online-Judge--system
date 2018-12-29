@@ -12,4 +12,4 @@ A simple OJ (Online Judge) system based on html+PHP+Python, that allows users to
 ![flowchart](assets/flowchart.png) 
 
 # Description:
-Users upload files through *index.html*, then files are scored by a Python script *main.py*. After the uploaded file successfully scored, the result csv file will be updated. Last, script *run.py* will convert the updated csv file into html page by using [csvtotable](https://pypi.org/project/csvtotable/) and update *index.html*. Users will be authenticated by the filename, e.g., including a secret key in the filename. 
+Users upload files through *index.html*, then files are scored by a Python script *main.py*. After the uploaded file is successfully scored, the result csv file will be updated. Lastly, the script *run.py* will convert the updated csv file into html page by using [csvtotable](https://pypi.org/project/csvtotable/) and update *index.html*. Users will be authenticated by the filename, e.g., including a secret key in the filename. 
